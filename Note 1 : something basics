@@ -1,0 +1,18 @@
+chaper 1 basics
+ 1.1 machine language  
+      CPU 8086's machine code for finish the equation s=768+1288-1280 is
+      101100000000000000000011
+      000001010000000000110000
+      001011010000000000000101
+      Ir's very haed to read and understand and hard to debug
+  1.2 assembly language
+        Because of the machine code is very hard to understand and debug,the pioneer of the compuer engineer invent the assembly language
+        The assembly language is the machine language's writing format which is easy to remember and write
+        such as 
+        machine code:1000100111011000
+        assembly code:MOV AX,BX
+        Translation:The contents of the register bx to ax.
+   image:
+   human------------->Assembly instrutions--------------------> Translator -------------------->mechine code ---------------------->computer
+   1.3compsition of the assembly language
+    Maybe update tomorrow
