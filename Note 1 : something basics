@@ -14,5 +14,4 @@ chaper 1 basics
         Translation:The contents of the register bx to ax.
    image:
    human------------->Assembly instrutions--------------------> Translator -------------------->mechine code ---------------------->computer
-   1.3compsition of the assembly language
-    Maybe update tomorrow
+1.3 compsition of the assembly language
