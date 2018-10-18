@@ -28,8 +28,11 @@ Chaper 1 Basics
                1000100111011000 ----> mov ax,bx(command)
  1.6 Memory units
         Memory is divided into different memory unit,number from 0.                               ---------------
-        Such as a memory which has 128 memory units                                              |               |
-        A memory unit could memory 1 Byte what is 8 Binary Bit.
-        For Mass storage,we usually use KB MB GB TB etc. measurement storage space size
-        the conversion is 2 ^ 10.
-        
+        Such as a memory which has 128 memory units                                            0 |               |
+        A memory unit could memory 1 Byte what is 8 Binary Bit.                                  |_______________|
+        For Mass storage,we usually use KB MB GB TB etc. measurement storage space size        1 |               |
+        the conversion is 2 ^ 10.                                                                |_______________|
+ 1.7 How CPU read and write the data in the storge                                             2 |               |
+        Like a street, data in the storge also have a address.                                        .......      
+        When CPU wants to read data in the storge, at first CPU should find the address of the Memory Units,that is design whitch Memory units
+ does it wants to read
